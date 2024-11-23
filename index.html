@@ -7,12 +7,114 @@
     <link rel="stylesheet" href="./dist/css/bootstrap.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
-    <h1>Mercedes vs. Porsche</h1>
-      <p>The contents of this page will display the unique characteristics of two luxury car brands, Mercedes and Porsche.</p>
+  <body class="bg-secondary">
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+
+    
+    <!--navbar here-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+      <div class="container-fluid">
+        <a class="navbar-brand" href="forminfo.html">Vechicle Overview</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forminfo.html">Form Info</a>
+            </li>
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+<!--Heading content here first -->
+
+    <h1 class="text-center text-warning fs-1">Welcome to the comparison of two luxury cars models, the Mercedes-AMG GT 63SE and the Porsche 911 GT3 RS.</h1>
+
+    <!--Mercedes-->
+    <div class="text-center">
+      <img class="img-fluid mx-auto d-block" 
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe-QbyWXZqRUJ40nQsRG34Wwy2rPTa_W8y4A&s" 
+      alt="Merceds-AMG GT 63SE">
+
+      <h2 class="text-center text-warning fs-1">Mercedes-AMG GT 63SE: It's a hybrid, just like AMG's racecards</h2>
+        <p class="text-white">Developed by racing champions to be one, the most advanced AMG GT Coupe yet pairs a handcrafted biturbo V8 with an electric rear motor, to send over 800 hp and 1,000 lb-ft of torque to all four wheels.</p>
+    </div>
+
+    <!--Porsche-->
+    <div class="text-center">
+      <img class="img-fluid mx-auto d-block"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrLB6BrSt-fm3rsaI5U5yS8kfIJYS-o_BOjw&s" 
+      alt="Porsche 911 GT3 RS">
+
+    <h2 class="text-center text-warning fs-1">Porsche 911 GT3 RS: Maximum performance.</h2>
+    <p class="text-white">As soon as the lights give the starting signal, the new 911 GT3 RS delivers unbelievable performance of up to 342 lb-ft on the racetrack. With up to 518 hp, taking you from 0-60 mph in 3.0 seconds, it can reach a top track speed of 184 mph. The lightweight stainless steel sport exhaust system ensures an unfiltered sound experience up to a maximum of 9,000 rpm.</p>
+  
+    </div>
+
+     <!--cards-->
+     <div class="container text-center">
+      <div class="row">
+        <div class="col-sm">
+
+          <div class="card h-100 shadow-lg pb-1" style="width: 18rem;">
+            <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20240422021334_Mercedes_AMG_GT63_S_E_Performance_interior.jpg&w=700&c=1" class="card-img-top" alt="Mercedes-AMG cockpit">
+            <div class="card-body">
+              <h5 class="card-title">Experience Beauty</h5>
+             
+        
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          
+          <div class="card h-100 shadow-lg pb-1" style="width: 18rem;">
+            <img src="https://stripo-cdn.stripo.email/img/front/email-review/mercedes-vs-porsche.png" alt="Porcshe and Mercedes-AMG">
+            <div class="card-body">
+              <h5 class="card-title">Love Both</h5>
+          
+              
+            </div>
+          </div>
+        
+        </div>
+        <div class="col-sm">
+          
+          <div class="card h-100 shadow-lg pb-1" style="width: 18rem;">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/2024-porsche-911-gt3-rs-120-64ecd9ff3772b.jpg" class="card-img-top" alt="Porsche 911 cockpit">
+            <div class="card-body">
+              <h5 class="card-title">Taste Luxury</h5>
+             
+            
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+      <!--pictures-->
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  
   </body>
 </html>
